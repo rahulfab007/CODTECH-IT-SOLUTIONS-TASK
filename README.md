@@ -5,8 +5,6 @@ Company : CODTECH IT SOLUTIONS
 Domain : C Programming
 Duration : july to may(4 Weeks)
 
-Here's a detailed overview of your C project, including an abstract, technologies used, and key points:
-
 ### Abstract
 The Quiz Game is a simple console-based application designed to test users' knowledge on computer science topics. The program presents a series of multiple-choice questions, evaluates user responses, and provides feedback on correctness. It aims to enhance the user's understanding of computer history and technology through interactive learning. The game keeps track of the user's score, culminating in a summary of performance at the end.
 
