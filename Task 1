@@ -1,0 +1,105 @@
+#include <stdio.h>
+
+int main() 
+{
+    int score = 0;
+    int answer;
+
+    printf("Welcome to the Quiz Game!\n");
+    printf("You will be presented with multiple-choice questions.\n");
+    printf("Enter the number corresponding to your answer.\n\n");
+
+    // Question 1
+    printf("Question 1: How Many Major Countries In the World Manufactures Microprocessor ?\n");
+    printf("1. one\n");
+    printf("2. Two\n");
+    printf("3. Three\n");
+    printf("4. Four\n");
+    printf("Your answer: ");
+    scanf("%d", &answer);
+
+    switch(answer) {
+        case 2:
+            printf("Correct!\n\n");
+            score++;
+            break;
+        default:
+            printf("Wrong. The correct answer is 2. Two(intel and motorola) \n\n");
+    }
+
+    // Question 2
+    printf("Question 2: who is the Father Of computers ?\n");
+    printf("1. Charles Newman\n");
+    printf("2. Charles Babbage\n");
+    printf("3. henry Babbage\n");
+    printf("4. henry luce\n");
+    printf("Your answer: ");
+    scanf("%d", &answer);
+
+    switch(answer) {
+        case 2:
+            printf("Correct!\n\n");
+            score++;
+            break;
+        default:
+            printf("Wrong. The correct answer is 2.Charles Babbage.\n\n");
+    }
+
+    // Question 3
+    printf("Question 3: What is the Example Of first Generation Computer?\n");
+    printf("1. EDVAC\n");
+    printf("2. EDSAC\n");
+    printf("3. ENIAC\n");
+    printf("4. UNIVAC\n");
+    printf("Your answer: ");
+    scanf("%d", &answer);
+
+    switch(answer) {
+        case 3:
+            printf("Correct!\n\n");
+            score++;
+            break;
+        default:
+            printf("Wrong. The correct answer is 3. ENIAC .\n\n");
+    }
+
+    // Question 4
+    printf("Question 4: Operating System is used in Which Generation Of Computer For the First Time?\n");
+    printf("1. First Generation\n");
+    printf("2. Second Generation\n");
+    printf("3. Third Generation\n");
+    printf("4. Fourth Generation\n");
+    printf("Your answer: ");
+    scanf("%d", &answer);
+
+    switch(answer) {
+        case 3:
+            printf("Correct!\n\n");
+            score++;
+            break;
+        default:
+            printf("Wrong. The correct answer is 3. Third Generation.\n\n");
+    }
+
+    // Question 5
+    printf("Question 5: Which Generation of computer used CD ROM For The First Time ?\n");
+    printf("1. First Generation\n");
+    printf("2. Second Generation\n");
+    printf("3. Third Geneartion\n");
+    printf("4. Fourth Generation\n");
+    printf("5. Fifth Genaraton\n");
+    scanf("%d", &answer);
+
+    switch(answer) {
+        case 5:
+            printf("Correct!\n\n");
+            score++;
+            break;
+        default:
+            printf("Wrong. The correct answer is 5. Fifth Generation.\n\n");
+    }
+
+    printf("Quiz Over! Your total score is: %d out of 5.\n", score);
+
+    return 0;
+}
